@@ -1,6 +1,6 @@
 # 价值定位技能使用说明
 
-`lany-value-positioning-skill` 把泛泛的个人IP方向变成可验证的服务对象和内容承诺。
+`lany-value-positioning-skill` 把泛泛的个人内容方向变成可验证的服务对象和内容承诺。
 
 ## 什么时候用
 
@@ -35,15 +35,15 @@
 ## 文件
 
 - [SKILL.md](SKILL.md)：模型执行规范。
-- [references/sources.md](references/sources.md)：原文来源、采用部分与未采用断言。
+- [references/methods.md](references/methods.md)：独立可读的方法、示例与适用边界。
 
-## 2026 年星球增补
+## 补充用法
 
 增加从真实帮助记录反推定位，以及用后续反馈修订承诺。调用示例：
 
 > 使用 $lany-value-positioning-skill。下面是我最近三次帮人解决问题的记录，请找共同能力与受助场景，区分已有反馈和待验证需求，不替我写专家人设。
 
-[星球方法来源及取舍](references/zsxq-2026.md)。以上调用均为演示，非用户已发生的案例。
+[方法笔记](references/methods.md)。以上调用均为演示，非用户已发生的案例。
 
 ## 独立仓库与安装
 
@@ -58,4 +58,4 @@ git clone https://github.com/LanyXiaosheng/lany-value-positioning-skill.git ~/.c
 
 已设置 `CODEX_HOME` 时，将目标改为该目录下的 `skills/lany-value-positioning-skill`。已有同名技能时先比较或备份，不覆盖。客户端发现技能后，使用 `$lany-value-positioning-skill` 调用。
 
-初次拆分的提交历史继续保留；当前工作版本已纳入2026年知识星球增强方法。
+当前版本附自包含方法笔记，无需访问外部原文；现有仓库提交历史保留。
